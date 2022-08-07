@@ -25,7 +25,12 @@ If we test all the possible values, we end up with the cost function graph:
 
 <img width="340" alt="image" src="https://user-images.githubusercontent.com/43887905/183281931-f5f24bf9-78ff-49ca-835d-14138eb28cdb.png">
 
-For a given dataset and only that dataset, we want to reach the valley
+For a given dataset and only that dataset, we want to reach the valley, that is minimize *J*.
+
+If we add B, the function looks different, the bowl shape extends to the third dimension, but there is still a valley to reach:
+
+<img width="632" alt="image" src="https://user-images.githubusercontent.com/43887905/183282071-e6459e4d-7325-4c06-8744-701e810aa37b.png">
+
  
 
  
