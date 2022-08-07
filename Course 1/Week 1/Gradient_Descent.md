@@ -27,7 +27,18 @@ We update the parameter w by adjusting the previous value with the derivate. In 
   - We can interpret the partial derivative as the slope of the tangent line to the function in that position (y/x in math notation), positive if the curve is climbing and negative if it is trouting. So the algorythm substracts if slope is positive, and sums if it is negative. If we pass the minimum, the algorythm backtracks. 
   <img width="741" alt="image" src="https://user-images.githubusercontent.com/43887905/183287204-4f5ffd5f-1f53-4f93-ab0b-d8cba1236d40.png">
 
-  - 
+  - What about the learning rate?
+    -  α too small and the algorythm will be slow, it will need many more steps to reach the minimum.
+    -  α too large, the algorythm may skip the minimum (overshoot) or fail to converge, even diverge.
+    -  What happens if *J(w)* is already in a local minimum? There the slope is 0, so gradient descent leaves *w* unchanged, so we are stuck in the local minimum!
+    
+    
+   - Applied to linear regression:
+   
+   <img width="770" alt="image" src="https://user-images.githubusercontent.com/43887905/183287496-59b07956-30b4-441e-9f01-4c8e1aa5688b.png">
+
+   <img width="747" alt="image" src="https://user-images.githubusercontent.com/43887905/183287465-d4ed5429-ed6d-4ac6-9f2e-7b016b018893.png">
+
 
 
 
