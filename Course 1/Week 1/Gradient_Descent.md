@@ -37,6 +37,8 @@ We update the parameter w by adjusting the previous value with the derivate. In 
    
    <img width="770" alt="image" src="https://user-images.githubusercontent.com/43887905/183287496-59b07956-30b4-441e-9f01-4c8e1aa5688b.png">
 
+<img width="307" alt="image" src="https://user-images.githubusercontent.com/43887905/183302186-1288efee-b74c-4c73-9085-8e36319ab6bc.png">
+
    <img width="747" alt="image" src="https://user-images.githubusercontent.com/43887905/183287465-d4ed5429-ed6d-4ac6-9f2e-7b016b018893.png">
 
 
