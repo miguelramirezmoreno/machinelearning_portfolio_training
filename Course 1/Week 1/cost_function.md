@@ -31,6 +31,10 @@ If we add B, the function looks different, the bowl shape extends to the third d
 
 <img width="632" alt="image" src="https://user-images.githubusercontent.com/43887905/183282071-e6459e4d-7325-4c06-8744-701e810aa37b.png">
 
+We can also represent it in 2d, much as the geographic maps connects the points with the same height. At the contour plot, every dot within a given ellipse have the same *J* value, as an output of different combinations of *w* and *b*.
+<img width="541" alt="image" src="https://user-images.githubusercontent.com/43887905/183282127-de20727e-485d-45a0-9cef-4de9051b4e4d.png">
+
+
  
 
  
