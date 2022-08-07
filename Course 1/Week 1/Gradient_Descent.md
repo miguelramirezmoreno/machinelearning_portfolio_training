@@ -15,14 +15,19 @@ We update the parameter w by adjusting the previous value with the derivate. In 
 <img width="303" alt="image" src="https://user-images.githubusercontent.com/43887905/183286772-939aaf7e-93e4-45e0-9aa8-85dc86fce377.png">
   - Sometimes we write "==" for truth assertions (a=c, but a cannot neber be a+1 in truth assertion, but it can be in code assigment, as it happens with the gradient descent algorythm).
   - α is the learning rate (usually between 0 and 1).
-  - α multiplies the derivative of *J*
+  - α multiplies the (partial) derivative of *J*.
  An for *b* it is:
  <img width="259" alt="image" src="https://user-images.githubusercontent.com/43887905/183286894-c266c25c-096c-46bc-9f41-956c6d9050b2.png">
+ 
   - We repeat until both converge, where the parameters no longer change much with each step.
   - As we are updating *w* and *b* we need to simultaneously update both parameters
 <img width="750" alt="image" src="https://user-images.githubusercontent.com/43887905/183286960-1a97d5d9-b44b-49ac-8245-6be56eaded4c.png">
 
   - This way, temp_w is a different value from the w that follows. In the incorrect example we have updated *w* before updating *b*, so the *w* terms in the second adn third line are different.
+  - We can interpret the partial derivative as the slope of the tangent line to the function in that position (y/x in math notation), positive if the curve is climbing and negative if it is trouting. So the algorythm substracts if slope is positive, and sums if it is negative. If we pass the minimum, the algorythm backtracks. 
+  <img width="741" alt="image" src="https://user-images.githubusercontent.com/43887905/183287204-4f5ffd5f-1f53-4f93-ab0b-d8cba1236d40.png">
+
+  - 
 
 
 
