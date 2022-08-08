@@ -1,4 +1,4 @@
-# Multiple features
+# Multiple features in multiple linear regression
 
 Now we have multiple features, such as:
 
