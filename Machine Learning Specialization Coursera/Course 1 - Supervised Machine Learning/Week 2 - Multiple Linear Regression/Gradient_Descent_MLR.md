@@ -13,4 +13,6 @@
   - The **normal ecuation** only works for linear regression. Solves for w,b without iterations.
   - Of course, the con is that it does not generalise to other learning algorythms. It is also very slow with many features (>10,000).
   - It can be used in machine learning libraries that implement linear regression.
+  
+  <img width="794" alt="image" src="https://user-images.githubusercontent.com/43887905/184098053-ccc5fa85-9d78-4bf3-913a-cc78ce6be1ae.png">
 
