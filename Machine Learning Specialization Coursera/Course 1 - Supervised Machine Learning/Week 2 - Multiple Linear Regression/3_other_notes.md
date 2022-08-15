@@ -20,3 +20,11 @@
     - Rescaling **is never bad**, though.
 
 # Checking gradient descent for convergence
+  - Consist of inspecting *J(w,b)* value against the number of iterations (Y and X, respectivelly). It should drop until reaching a minimum (convergence), the classical learning curve.
+  - It is complicated to predict the required number of iterations. There is, though, the automatic convergence tes, where we declare convergence when the change in *J* is equal or less to a predetermined value we call epsilon, *ε*. It is a small number, such as 0.001.
+
+# Choosing the learning rate.
+  - If *J(w,b)* oscillates, either there is a code bug or learning rate is not good (e.g., α is too big, and we skip the minimum for at least one of the parameters *w*). 
+  - With a small enough α, *J* should decrease at every iteration. Convergence would take many more iterations then.
+  - Examples of α to start with: 0.001, 0.01, 0.1, 1. Some people check multiply the existing α by 3 before jumping to the next fold.
+  <img width="444" alt="image" src="https://user-images.githubusercontent.com/43887905/184601332-eda346c5-a564-4680-9504-a0ff02d07923.png">
