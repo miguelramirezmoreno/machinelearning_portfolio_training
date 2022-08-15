@@ -28,3 +28,16 @@
   - With a small enough α, *J* should decrease at every iteration. Convergence would take many more iterations then.
   - Examples of α to start with: 0.001, 0.01, 0.1, 1. Some people check multiply the existing α by 3 before jumping to the next fold.
   <img width="444" alt="image" src="https://user-images.githubusercontent.com/43887905/184601332-eda346c5-a564-4680-9504-a0ff02d07923.png">
+
+
+# Feature engineering
+  - Consist of making a new feature out of existing ones. Example: frontage and dept of a property can be combined into a single feature, area. 
+  - However, we add a new feature but we keep the old ones (maybe frontage is actually most important than the dept).
+
+
+# Polynomal regression
+
+<img width="926" alt="image" src="https://user-images.githubusercontent.com/43887905/184661448-1358e7f4-5a42-45d0-a901-61e7b21c429f.png">
+
+  - Makes feature scaling even more important
+  - More on this later on
