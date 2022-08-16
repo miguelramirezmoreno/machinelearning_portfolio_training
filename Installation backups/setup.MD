@@ -10,3 +10,7 @@
 This post is also useful but failed to install tensorflow with it https://towardsdatascience.com/setting-up-apples-new-m1-macbooks-for-machine-learning-f9c6d67d2c0f
 
 
+I got ScikitLearn with this command, directly in the environment with tf:
+
+conda install --channel=conda-forge scikit-learn
+
