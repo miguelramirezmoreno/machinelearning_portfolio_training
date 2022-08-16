@@ -25,4 +25,9 @@ dependencies:
   - typing_extensions
   - wheel
   - wrapt
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - pytorch
+  - spyder-kernels=2.3
   
