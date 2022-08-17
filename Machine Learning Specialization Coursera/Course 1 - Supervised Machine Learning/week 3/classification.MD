@@ -16,3 +16,12 @@
 
 # Logistic regression
   - Despite the name, is is **not** regression, the name is due to historical reasons.
+  - Based on the logistic/sigmoid function, which has output between 0 and 1. The imput,z, is derived from x, but it can have positive or negative values.
+  
+ <img width="619" alt="image" src="https://user-images.githubusercontent.com/43887905/185188583-3d40784f-4ee2-47fe-ba9e-186a79de8782.png">
+  - A positive Z makes *g(z)* to become 1, and a negative Z makes *g(z)* closer to zero.
+  - If Z=0, *g(z)* = 0.5.
+  - The algorythm is build this way:
+<img width="340" alt="image" src="https://user-images.githubusercontent.com/43887905/185189504-7328ec12-d4cc-4b9d-aa8f-10422c7a59fb.png">
+  -*g(z)* tells us the probability that class is 1 (true) given the parameters *w* and *b* and the input *x*.So p(y=0)= 1-p(y=1)
+  
