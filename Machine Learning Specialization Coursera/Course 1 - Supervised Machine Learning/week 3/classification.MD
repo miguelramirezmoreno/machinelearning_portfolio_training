@@ -37,4 +37,14 @@
 
 # Cost function
   -  We cannot use the same ecuation, or plotting *H* against *w,b* we get a non convex function with losts of local minima.
-  -  For a given case, we define the Loss, *L*(*f<sub>w,b</sub> (x<sup>i</sup>), y<sup>i</sup>)*
+  -  For a given case, we define the Loss, *L*(*f<sub>w,b</sub> (x<sup>(i)</sup>), y<sup>(i)</sup>)* = (1/2) * (*f<sub>w,b</sub> (x<sup>(i)</sup>)* - *y<sup>(i)</sup>*)<sup>2</sup> .
+  -  Including the sigmoid function, the logistic loss function takes different ecuations whether *y* = 0 or 1. Both give a convex function, just like we wanted.
+  <img width="739" alt="image" src="https://user-images.githubusercontent.com/43887905/185329163-bfca234b-4bb5-4e58-8a55-0fddca42ab2b.png">
+
+  -  If y = 1, let's see what happens plotting log(*f*) (we are only interested in the 0-1 range).
+<img width="997" alt="image" src="https://user-images.githubusercontent.com/43887905/185330158-0286c46a-f626-4a27-9331-da4ffa725744.png">
+  -  Loss tends to 0 as we approach yo *f* = 1, as it tends to 0, loss tends to infinite.
+
+  -  If y = 0, the opposite occurs:
+<img width="662" alt="image" src="https://user-images.githubusercontent.com/43887905/185331799-d95c2843-08b3-4bbd-8c04-accb000c6eb0.png">
+
