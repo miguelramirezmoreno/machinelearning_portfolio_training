@@ -1,4 +1,4 @@
-# Classification
+# Classification; logistic regression
  - When we want to answer a simple question. Is this email spam? Is the transaction legal? Is the tumour malignant?
  - Binary classification, *y* can be only one of two values, or classes or categories: no/false/0, versus yes/true/1. Bad/good can be used too, but these words carry a bias (e.g., with malignant tumour we won't say "good" for the true.
  - We can use symbols to show the two different classes:
@@ -34,4 +34,7 @@
  <img width="950" alt="image" src="https://user-images.githubusercontent.com/43887905/185196928-0b3ccff1-3b60-4980-a282-3580e66ced3d.png">
 <img width="951" alt="image" src="https://user-images.githubusercontent.com/43887905/185214187-8ca420bd-305f-4a56-ac4e-80c39ab63f4d.png">
 
-  -  
+
+# Cost function
+  -  We cannot use the same ecuation, or plotting *H* against *w,b* we get a non convex function with losts of local minima.
+  -  For a given case, we define the Loss, *L*(*f<sub>w,b</sub> (x<sup>i</sup>), y<sup>i</sup>)*
