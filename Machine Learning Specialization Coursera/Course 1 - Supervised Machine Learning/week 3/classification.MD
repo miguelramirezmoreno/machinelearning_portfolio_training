@@ -48,3 +48,11 @@
   -  If y = 0, the opposite occurs:
 <img width="662" alt="image" src="https://user-images.githubusercontent.com/43887905/185331799-d95c2843-08b3-4bbd-8c04-accb000c6eb0.png">
 
+  -  The loss function can also be written with the formula:
+ <img width="784" alt="image" src="https://user-images.githubusercontent.com/43887905/185796039-6caea6ec-84ca-4d3d-837b-76bd3016b3c7.png">
+
+  -  (As *y* is always either 1 or 0)
+  -  Cost function, applying the same method than in linear regression and moving the "-" outside, results in:
+<img width="774" alt="image" src="https://user-images.githubusercontent.com/43887905/185796282-645c463e-b613-4ab2-8a91-d1948cbf2d3f.png">
+
+  -  
