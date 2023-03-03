@@ -30,4 +30,6 @@ dependencies:
   - scikit-learn
   - pytorch
   - spyder-kernels=2.3
+  -sympy
+  -jax
   
