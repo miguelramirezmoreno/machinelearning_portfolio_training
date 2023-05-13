@@ -18,6 +18,7 @@ dependencies:
   - python-flatbuffers
   - python=3.8
   - scipy
+  - notebook
   - tensorboard
   - tensorflow-estimator
   - termcolor
