@@ -1,3 +1,9 @@
+# Update May 2023
+
+I had some troubles installing some resources lately and the usual outcome was disrupting tensorflow. It seems that the trouble is that the current released version by Apple just does not work. I have managed to fix is specifying these versions with pip:
+tensorflow-macos==2.9
+tensorflow-metal==0.5.0
+
 #Some notes to considering when installing everything
 
 general link for multiple OS: https://fangohr.github.io/blog/installation-of-python-spyder-numpy-sympy-scipy-pytest-matplotlib-via-anaconda.html#installation
@@ -15,4 +21,6 @@ This post is also useful but failed to install tensorflow with it https://toward
 I got ScikitLearn with this command, directly in the environment with tf:
 
 conda install --channel=conda-forge scikit-learn
+
+
 
